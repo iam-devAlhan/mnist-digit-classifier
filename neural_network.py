@@ -13,6 +13,7 @@ class NeuralNetwork:
         self.W2 = np.random.randn(self.hidden_size, self.output_size) * 0.1
         self.b2 = np.zeros((1, self.output_size))
 
+    
     def relu(self, x):
         return np.maximum(0, x)
     
