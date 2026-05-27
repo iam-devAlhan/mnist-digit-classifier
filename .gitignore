@@ -1,2 +1,3 @@
 /.vscode
 env
+mnist_weights.npz
